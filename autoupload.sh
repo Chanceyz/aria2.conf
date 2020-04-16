@@ -12,15 +12,15 @@
 ## 基础设置 ##
 
 # Rclone 配置时填写的网盘名(name)
-DRIVE_NAME='Onedrive'
+DRIVE_NAME='Google'
 
 # 网盘目录。即上传目标路径，留空为网盘根目录，末尾不要有斜杠。
-DRIVE_PATH='/DRIVEX/Download'
+DRIVE_PATH='upload'
 
 # Aria2下载目录
 # Aria2 一键安装管理脚本使用选项统一进行修改。
 # Aria2 Pro Docker 镜像无需修改，通过目录映射进行设置。
-DOWNLOAD_PATH='/root/Download'
+DOWNLOAD_PATH='/root/Downloads'
 
 ## 文件过滤 ##
 
